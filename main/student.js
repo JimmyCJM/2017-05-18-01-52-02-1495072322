@@ -1,5 +1,5 @@
 let Person = require('./person')
-function student(name,age,klass){
+function Student(name,age,klass){
   Person.call(this);
   this.class = klass;
   this.name = name;
