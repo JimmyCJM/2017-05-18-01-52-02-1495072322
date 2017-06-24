@@ -9,5 +9,4 @@ function student(name,age,klass){
     return a;
   }
 };
-Chinese.prototype = Person.prototype;}
 module.exports = Student
