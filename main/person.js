@@ -1,4 +1,4 @@
-function Person(name,age){
+var Person = function(name,age){
   this.name = name;
   this.age = age;
   this.introduce = function (){
