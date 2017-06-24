@@ -1,5 +1,3 @@
-// Write your code here
-module.exports = Person
 function Person(name,age){
   this.name = name;
   this.age = age;
@@ -8,3 +6,4 @@ function Person(name,age){
     return a;
   }
 }
+module.exports = Person
