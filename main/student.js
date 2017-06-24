@@ -1,7 +1,7 @@
 let Person = require('./person')
 function student(name,age,klass){
   Person.call(this);
-  this.klass = klass;
+  this.class = klass;
   this.name = name;
   this.age = age;
   this.introduce = function (){
